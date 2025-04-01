@@ -1,0 +1,298 @@
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Poppins:wght@300;400;600;700&display=swap');
+
+/* CSS Variables for Color Palette */
+:root {
+    --primary-teal: #0A9396;
+    --soft-blue: #94D2BD;
+    --background-white: #F8F9FA;
+    --text-dark: #2C3E50;
+    --accent-blue: #457B9D;
+    --light-gray: #F1F3F4;
+    --white: #FFFFFF;
+}
+
+/* Global Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: var(--text-dark);
+    background-color: var(--background-white);
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4rem 1rem;
+}
+
+/* Header and Navigation */
+header {
+    background-color: var(--white);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 1rem 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--text-dark);
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: var(--primary-teal);
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(135deg, var(--primary-teal), var(--soft-blue));
+    color: var(--white);
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.hero-section .profile-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid var(--white);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+
+.hero-section h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    margin: 1rem 0;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-section p {
+    max-width: 700px;
+    margin: 0 auto;
+    font-weight: 300;
+}
+
+/* Story Section */
+.story-section {
+    background-color: var(--white);
+}
+
+.story-section h2 {
+    text-align: center;
+    position: relative;
+    padding-bottom: 1rem;
+}
+
+.story-section h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 3px;
+    background-color: var(--primary-teal);
+}
+
+.education-details {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+/* Experience Section */
+.experience-section {
+    background-color: var(--light-gray);
+}
+
+.job-entry {
+    background-color: var(--white);
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.job-entry:hover {
+    transform: translateY(-5px);
+}
+
+.job-entry h3 {
+    color: var(--accent-blue);
+    margin-bottom: 0.5rem;
+}
+
+.job-entry ul {
+    padding-left: 1.5rem;
+}
+
+/* Certifications Section */
+.certifications-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.licensure-details, 
+.certification-details {
+    flex: 1;
+    margin: 1rem;
+    background-color: var(--white);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.licensure-details:hover,
+.certification-details:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* Mission Section */
+.mission-section {
+    background-color: var(--primary-teal);
+    color: var(--white);
+    text-align: center;
+}
+
+.mission-section blockquote {
+    font-size: 1.5rem;
+    font-style: italic;
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    padding: 1rem;
+}
+
+.mission-section blockquote::before,
+.mission-section blockquote::after {
+    content: '"';
+    font-size: 3rem;
+    position: absolute;
+    opacity: 0.5;
+}
+
+.mission-section blockquote::before {
+    top: -10px;
+    left: -20px;
+}
+
+.mission-section blockquote::after {
+    bottom: -30px;
+    right: -20px;
+}
+
+/* CTA Section */
+.cta-section {
+    background-color: var(--white);
+    text-align: center;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn:nth-child(1) {
+    background-color: var(--primary-teal);
+    color: var(--white);
+}
+
+.btn:nth-child(2) {
+    border: 2px solid var(--primary-teal);
+    color: var(--primary-teal);
+}
+
+.btn:nth-child(3) {
+    color: var(--accent-blue);
+    border-bottom: 2px solid var(--accent-blue);
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+    background-color: var(--light-gray);
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 0.5rem 0;
+    }
+
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+
+    .cta-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .licensure-details, 
+    .certification-details {
+        flex: 100%;
+    }
+}

@@ -1,0 +1,137 @@
+/* Contact Page Styles */
+:root {
+    /* Color Palette */
+    --teal-primary: #008080;
+    --teal-dark: #006666;
+    --blue-soft: #004d4d;
+    --background-light-blue: #f0f8ff;
+    --gray-light: #f0f0f0;
+    --text-gray: #666666;
+}
+
+
+/* Contact Form Styles */
+.contact-form-section {
+    background-color: white;
+    padding: 80px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-form {
+    width: 100%;
+    max-width: 500px;
+}
+
+.contact-form label {
+    color: var(--text-gray);
+    margin-bottom: 5px;
+    display: block;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid var(--gray-light);
+    border-radius: 8px;
+    transition: border 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border: 2px solid var(--teal-primary);
+    outline: none;
+}
+
+.contact-form textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+.contact-form .submit-btn {
+    background-color: var(--teal-primary);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.contact-form .submit-btn:hover {
+    background-color: var(--teal-dark);
+    transform: translateY(-2px);
+}
+
+
+
+/* Animations */
+/* @keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+} */
+
+/* Responsive Adjustments */
+@media screen and (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+
+    .hero-section h2 {
+        font-size: 1.2rem;
+    }
+
+    .social-media-icons {
+        gap: 10px;
+    }
+
+    .social-media-icons a {
+        font-size: 1.5rem;
+    }
+}
+
+/* Optional: Floating WhatsApp Chat Button */
+.whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25D366;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.whatsapp-float:hover {
+    background-color: #128C7E;
+    transform: scale(1.1);
+}

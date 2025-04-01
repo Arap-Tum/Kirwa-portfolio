@@ -1,0 +1,47 @@
+body {
+    margin: none;
+    padding: none;
+    box-sizing: border-box;
+}
+ 
+.side-bar {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: all 0.3s ease-in-out;
+}
+
+
+.side-bar.active {
+    visibility: visible;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background: rgba(0, 128, 128, 0.6);
+    padding: 20px;
+    width: 170px;
+    color: white;
+    flex-direction: column;
+    border-radius: 22px;
+    position: absolute;
+    overflow: auto;
+    z-index: 1000;
+}
+
+.side-bar a {
+    color: white;
+    text-decoration: none;
+}
+
+.side-bar .about {
+    padding: 20px;
+    gap: 20px;
+    border-radius: 20px;
+    align-items: center;
+   
+}
+
+.side-bar .about:hover {
+    background: rgba(0, 128, 128, 0.3);
+}
+

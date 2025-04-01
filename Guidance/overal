@@ -1,0 +1,88 @@
+Perfect, thanks for the details! Here's a clean, well-thought-out structure for your uncle's portfolio site—creative, modern, and client-attracting, just how you want it:
+
+---
+
+## 🧩 Site Structure (Page Breakdown)
+
+### 1. **Home Page**  
+A strong first impression. Short, powerful, visually appealing.
+
+- Hero Section (full-screen with image or background)
+  - Catchy headline (e.g. “Caring Beyond Measure”)
+  - Subheading about your uncle’s profession
+  - CTA button (e.g., *View Portfolio* or *Get in Touch*)
+- Brief Intro/About Preview (1–2 lines and link to "About" page)
+- Quick Links to Portfolio / Testimonials
+
+---
+
+### 2. **About Page**  
+Tells the story. Builds trust.
+
+- Professional Bio (who your uncle is, experience, values)
+- Certifications or key achievements
+- A professional photo
+- Maybe a quote or personal mission statement
+
+---
+
+### 3. **Portfolio / Projects Page**  
+Showcase work and skills clearly.
+
+- Project Cards/Grid layout
+  - Each with: image, title, short description, and "View more" or “Read story”
+- Categories (e.g., Community Service, Clinical Work, Volunteering)
+- Optional: Lightbox or separate pages for each project
+
+---
+
+### 4. **Testimonials Page**  
+Let others speak for him.
+
+- Short quotes from clients, patients, coworkers, or employers
+- Include names, roles, and photos (if possible)
+- You can do these in card format or a slider
+
+---
+
+### 5. **Resume Page**
+Downloadable + visual summary.
+
+- “Download Resume” button (PDF)
+- Also show the key resume info visually:
+  - Skills
+  - Experience timeline
+  - Education
+  - Certifications
+- Maybe a visual like a timeline or badge icons
+
+---
+
+### 6. **Contact Page**  
+Encourage action.
+
+- Contact Form (Name, Email, Message)
+- Phone number (if he allows)
+- Email address
+- Location (optional map or city name)
+- Social media icons (LinkedIn, Facebook, WhatsApp)
+
+---
+
+### 7. **Global Navigation (Navbar)**
+- Logo or Name on left
+- Links: Home | About | Portfolio | Testimonials | Resume | Contact
+- Fixed on top, modern hover effects
+
+---
+
+### 8. **Footer (on all pages)**
+- Copyright
+- Social Media Icons
+- Quick links
+
+---
+
+✅ Let me know if you want help with wireframes (block sketch/visual layout) before jumping into code. Once you're ready, we can start with HTML structure for the **Home Page**.
+
+You in?
