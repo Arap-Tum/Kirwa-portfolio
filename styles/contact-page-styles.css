@@ -8,7 +8,18 @@
     --gray-light: #f0f0f0;
     --text-gray: #666666;
 }
+/* hero section */
+.hero-section {
 
+    background: linear-gradient(135deg, #008080 0%, #e6f0fa 100%);
+    padding: 20px;
+    color: #f0f8ff;
+}
+
+.container a {
+    color: #f0f0f0;
+    text-decoration: none;
+}
 
 /* Contact Form Styles */
 .contact-form-section {
@@ -70,7 +81,7 @@
 
 
 /* Animations */
-/* @keyframes fadeIn {
+@keyframes fadeIn {
     from {
         opacity: 0;
         transform: translateY(20px);
@@ -90,7 +101,7 @@
         opacity: 1;
         transform: translateX(0);
     }
-} */
+} 
 
 /* Responsive Adjustments */
 @media screen and (max-width: 768px) {

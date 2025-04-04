@@ -47,11 +47,11 @@
     text-shadow: 0 0 4px rgba(255, 255, 255, 0.3);
   }
 
-  .topbar .small-screen-menu .toogle {
+  .topbar .small-screen-menu .toggle {
       font-size: 30px;
       padding: 20px;
   }
-  .topbar .small-screen-menu .toogle:hover {
+  .topbar .small-screen-menu .toggle:hover {
     cursor: pointer;
   }
 

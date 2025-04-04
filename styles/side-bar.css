@@ -5,15 +5,14 @@ body {
 }
  
 .side-bar {
-    visibility: hidden;
+    display: none;
     opacity: 0;
-    transform: translateX(-100%);
     transition: all 0.3s ease-in-out;
 }
 
 
 .side-bar.active {
-    visibility: visible;
+    display: block;
     position: absolute;
     top: 70px;
     right: 0;
