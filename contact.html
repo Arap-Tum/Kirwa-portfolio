@@ -24,6 +24,11 @@
     <!-- Contact Form Section -->
     <section class="contact-form-section">
         <form class="contact-form" action="#" method="POST">
+            <P class="successMessage"
+                style="
+                color: green;
+                font-weight: bolder; "
+            > </P>
             <div class="form-group">
                 <label for="name">Name</label>
                 <input type="text" id="name" name="name" required>
@@ -43,18 +48,26 @@
                 <label for="message">Your Message</label>
                 <textarea id="message" name="message" required></textarea>
             </div>
+
+            
             
             <button type="submit" class="submit-btn">Send Message</button>
+
+            
         </form>
     </section>
 
+    
+
 
     <!--  Floating WhatsApp Chat Button -->
-    <a href="#" class="whatsapp-float" aria-label="WhatsApp Chat">
+    <a href="https://wa.me/+254 790 262929" class="whatsapp-float" aria-label="WhatsApp Chat">
         <i class="fab fa-whatsapp"></i>
     </a>
 
     <div class="footer"></div>
+    <script src="scripts/sendToWhatsapp.js"
+    ></script>
 <script src="scripts/pageConector.js"></script>
     <script>
         // Optional JavaScript for form submission or interactions
