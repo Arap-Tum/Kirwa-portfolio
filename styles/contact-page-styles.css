@@ -8,6 +8,13 @@
     --gray-light: #f0f0f0;
     --text-gray: #666666;
 }
+/* LOGO */
+
+.logo img {
+    height: 40px;
+    object-fit: contain;
+  }
+  
 /* hero section */
 .hero-section {
 
